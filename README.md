@@ -5,7 +5,7 @@ This is a code for sine waveform inversion for parameters like amplitude, freque
 
 It uses ALGLIB (http://www.alglib.net/) library for for data objects and parameter optimization.
 
-y = A*sin(2*pi*f*t+p)+d
+y = A*cos(2*pi*f*t+p)+d
 
 A is the amplitude
 f is the frequency
